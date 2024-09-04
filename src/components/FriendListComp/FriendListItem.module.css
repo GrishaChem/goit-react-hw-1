@@ -1,0 +1,13 @@
+.liI {
+  border: black solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.On {
+  color: greenyellow;
+}
+
+.Off {
+  color: Red;
+}

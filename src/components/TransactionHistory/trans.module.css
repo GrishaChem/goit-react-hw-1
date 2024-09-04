@@ -1,0 +1,25 @@
+.head {
+  background-color: #696969;
+}
+
+td {
+  font-size: 20px;
+}
+
+table {
+  margin: 0px auto;
+  margin-top: 10px;
+}
+table tr:nth-child(odd):not(:first-child) {
+  background-color: #ffffff; /* White for even rows, excluding the first row */
+}
+table tr:nth-child(even):not(:first-child) {
+  background-color: #d3d3d3; /* Darker gray for odd rows, excluding the first row */
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

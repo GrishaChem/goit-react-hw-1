@@ -1,0 +1,13 @@
+.friendList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px auto;
+  width: 535px;
+  align-items: center;
+}
+
+.Lii {
+  font-size: 20px;
+}

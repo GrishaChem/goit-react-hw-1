@@ -9,6 +9,7 @@
   border-width: 2px;
   border-style: solid;
   border-radius: 16px;
+  overflow: hidden;
   padding-top: 10px;
 }
 .imgWrapper {

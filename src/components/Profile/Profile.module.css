@@ -1,0 +1,71 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  padding-top: 10px;
+}
+.imgWrapper {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #3d3635;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fullname {
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.q {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 33.333333333333%;
+  background-color: #d3d3d3;
+  padding: 10px;
+  border: gray, solid, 1px;
+  z-index: -1;
+}
+
+.location {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.tag {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.age {
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
